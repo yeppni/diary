@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Ownglyph_Dailyokja-Rg';
+}
+
+@font-face {
+  font-family: 'Ownglyph_Dailyokja-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2403@1.0/Ownglyph_Dailyokja-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-image: url("/imges/5169347.jpg");
+}
+
+.back{
+  width: 70%;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0.664);
+  padding: 15px;
+}
+
+h1{
+  width: 60%;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 75px;
+  color: #f0fdff;
+  text-shadow: 3px 3px 10px #557377;
+}
+
+.container {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  display: flex;
+}
+
+textarea{
+  width: 90%;
+  height: 100px;
+  background-color: #FBF9F1;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 30px;
+  margin-right: 5px;
+  box-shadow: 3px 3px 5px #6d969c;
+}
+
+button{
+  width: 10%;
+  height: 100px;
+  background-color: #E5E1DA;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 5px #6d969c;
+}
+
+button:active{
+  background-color: #92C7CF;
+  color: white;
+}
+
+.list{
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+}
